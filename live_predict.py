@@ -54,7 +54,7 @@ while True:
         continue
 
     # Flip for mirror view
-    frame = cv2.flip(frame, 1)
+    #frame = cv2.flip(frame, 1)
     img_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     result = hands.process(img_rgb)
 
@@ -66,6 +66,7 @@ while True:
             # Extract normalized landmark coordinates
             landmarks = []
             for lm in hand_landmarks.landmark:
+                mirrored_x = 1 - lm.x
                 landmarks.extend([lm.x, lm.y, lm.z])  # use normalized values directly
 
 
