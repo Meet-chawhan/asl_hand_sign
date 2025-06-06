@@ -1,0 +1,8 @@
+
+*.csv
+*.h5
+*.pycache/
+__pycache__/
+asl_alphabet_train/
+asl_sample/
+.vscode/
