@@ -3,18 +3,17 @@ import mediapipe as mp
 import os
 import csv
 
-# Initialize MediaPipe
+# hand detection
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(static_image_mode=True, max_num_hands=1)
 mp_drawing = mp.solutions.drawing_utils
 
-# Set your image folder path
-IMAGE_FOLDER ='asl_alphabet_train'   # Change this to your image folder
+IMAGE_FOLDER ='asl_alphabet_train'   
 CSV_OUTPUT = 'hand_landmarks.csv'
 
-# Prepare CSV
+#csv
 header = ['label']
-for i in range(21):  # 21 landmarks
+for i in range(21):
     header += [f'x{i}', f'y{i}', f'z{i}']
 
 with open(CSV_OUTPUT, mode='w', newline='') as f:
