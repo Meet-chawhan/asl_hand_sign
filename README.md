@@ -12,7 +12,7 @@ How to setup-
 
 Other files-
 1. The cordinates.py file  was used to convert the images of  hand signs into a csv file for training of the mlp model.
-2. model.py file takes csv file as input and trains the mlp model for the live predictor.
+2. model.py file takes csv file as input and trains the mlp model for the live predictor.  
 NOTE- cordinates.py and model.py can be used to train model with custom hand signs but the hand signs need to be static or 1 frame long.
 
 Technologies-
