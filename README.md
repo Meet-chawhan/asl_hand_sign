@@ -2,11 +2,11 @@ This is an alphabet hand sign translator which detects hand sign on live cam and
 
 How to setup-
 1. Clone or copy this project
-   git clone https://github.com/yourusername/HandSignTranslator.git
-   cd HandSignTranslator
+   "git clone https://github.com/yourusername/HandSignTranslator.git"
+   "cd HandSignTranslator"
 2. Download the model from the "releases" page and place it in the same folder.
 3. Install dependencies
-   pip install -r requirements.txt
+   "pip install -r requirements.txt"
 4. Run the live_predict.py file and it will start detecting the hand signs.
 5. Press 'q' to exit the program.
 
