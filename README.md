@@ -15,19 +15,19 @@ Other files-
 2. model.py file takes csv file as input and trains the mlp model for the live predictor.  
 NOTE- cordinates.py and model.py can be used to train model with custom hand signs but the hand signs need to be static or 1 frame long.
 
-Technologies-
-Machine Learning & Deep Learning
+Technologies-  
+Machine Learning & Deep Learning  
 TensorFlow / Keras – Used to build, train, and save the MLP (Multi-Layer Perceptron) model that classifies hand gestures.
 scikit-learn – Used for dataset preparation, label encoding, and splitting data into training/testing sets.
 
-Data Handling
+Data Handling  
 Pandas – For reading and managing CSV files containing extracted hand landmark data.
 NumPy – For numerical operations, reshaping data arrays, and feature processing.
 
-Computer Vision & Landmark Extraction
+Computer Vision & Landmark Extraction  
 MediaPipe – For detecting and tracking 3D hand landmarks (21 points per hand).
 OpenCV – For video capture from webcam, frame handling, and drawing detected hand connections on screen.
 
-Utilities
+Utilities  
 time – Used for timing predictions and controlling frame rate.
 Counter (from collections) – Helps analyze class distribution and handle balanced predictions.
