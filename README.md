@@ -2,8 +2,8 @@ This is an alphabet hand sign translator which detects hand sign on live cam and
 
 How to setup-
 1. Clone or copy this project
-   "git clone https://github.com/yourusername/HandSignTranslator.git"  
-   "cd HandSignTranslator"
+   "git clone https://github.com/Meet-chawhan/asl_hand_sign.git"  
+   "cd asl_hand_sign"
 2. Download the model from the "releases" page and place it in the same folder.
 3. Install dependencies
    "pip install -r requirements.txt"
